@@ -1,6 +1,6 @@
 ### Purpose
 
-This code is intended to test the request ID and the New Relic request during concurrent request not on large scale. The Lambda function injects the request ID from the Lambda context into the logger context. New Relic collects this log in JSON format, including all keys and values. This allows testing whether the New Relic extension provides the correct request ID using the New Relic UI. 
+This code is intended to test the request ID and the New Relic request during concurrent request on large scale not on small scale. The Lambda function injects the request ID from the Lambda context into the logger context. New Relic collects this log in JSON format, including all keys and values. This allows testing whether the New Relic extension provides the correct request ID using the New Relic UI. 
 
 ## Deploy the sample application
 
